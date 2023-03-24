@@ -1,0 +1,160 @@
+.qv-object-Tabela_Meta div.qv-object-content-container {
+	overflow: auto;
+	border-top: 2px solid black;
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+.qv-object-Tabela_Meta h1 {
+	font-size: 60px;
+}
+
+.qv-object-Tabela_Meta h2 {
+	font-size: 24px;
+}
+
+.qv-object-Tabela_Meta h3 {
+	font-size: 15px;
+}
+
+.qv-object-Tabela_Meta h4 {
+	font-size: 12px;
+}
+
+//Totais
+.qv-object-Tabela_Meta th.geral {
+	color: #FFFFFF;
+	background-color: #002060;
+	font-weight: bold;
+	padding: 3px 6px 3px 6px;
+	text-align: center;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+//titulos
+.qv-object-Tabela_Meta th.fks {
+	color: black;
+	font-weight: bold;
+	background-color: #ffffff;
+	border-bottom: 2px solid black;
+}
+
+.qv-object-Tabela_Meta th.fks2 {
+	color: black;
+	font-weight: bold;
+	background-color: #ffffff;
+	border-left: 2px solid black;
+}
+
+.qv-object-Tabela_Meta th.dep {
+	padding-top: 6px;
+	color: white;
+	font-weight: bold;
+	background-color: #00B0F0;
+	border-left: 2px solid black;
+}
+
+.qv-object-Tabela_Meta th.titulo1 {
+	color: red;
+	font-weight: bold;
+	background-color: #FFFF00;
+	border-top: 0px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+
+.qv-object-Tabela_Meta th.titulo2 {
+	color: black;
+	font-weight: bold;
+	background-color: #BDD7EE;
+	border: 2px solid black;
+}
+
+.qv-object-Tabela_Meta th.titulo3 {
+	color: black;
+	font-weight: bold;
+	background-color: #D9D9D9;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.qv-object-Tabela_Meta th.titulo4 {
+	color: black;
+	font-weight: bold;
+	background-color: #D9D9D9;
+	border-bottom: 2px solid black;
+	text-align: center;
+
+}
+
+
+// Padrão
+.qv-object-Tabela_Meta div.qv-object-content-container {
+	overflow: auto;
+}
+.qv-object-Tabela_Meta td,
+.qv-object-Tabela_Meta th {
+	/*border-top: 0px solid #fff;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;*/
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	cursor: default;
+	font-size: 12px;
+}
+.qv-object-Tabela_Meta td.numeric {
+	text-align: right;
+}
+.qv-object-Tabela_Meta button {
+	width: 100%;
+}
+
+
+
+//row - linhas
+.qv-object-Tabela_Meta td.string-branco {
+	color: black;
+	background-color: #ffffff;
+	padding: 3px 6px 3px 6px;
+}
+.qv-object-Tabela_Meta td.string-azul {
+	color: black;
+	background-color: #DDEBF7;
+	padding: 3px 6px 3px 6px;
+}
+.qv-object-Tabela_Meta td.numeric-branco {
+	color: black;
+	background-color: #ffffff;
+	font-weight: bold;
+	padding: 3px 6px 3px 6px;
+	text-align: center;
+}
+.qv-object-Tabela_Meta td.numeric-azul {
+	color: black;
+	background-color: #DDEBF7;
+	font-weight: bold;
+	padding: 3px 6px 3px 6px;
+	text-align: center;
+}
+.qv-object-Tabela_Meta td.numeric-totais1 {
+	color: black;
+	background-color: #FCE4D6 ;
+	font-weight: bold;
+	padding: 3px 6px 3px 6px;
+	text-align: left;
+	border-top: 2px solid black;
+}
+.qv-object-Tabela_Meta td.numeric-totais2 {
+	color: black;
+	background-color: #FCE4D6 ;
+	font-weight: bold;
+	padding: 3px 6px 3px 6px;
+	text-align: center;
+	border-top: 2px solid black;
+}
+
+
+
+
